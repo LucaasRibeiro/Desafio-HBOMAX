@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background: rgb(101, 89, 175);
+  background: linear-gradient(
+    73deg,
+    rgba(101, 89, 175, 1) 12%,
+    rgba(220, 153, 223, 1) 87%
+  );
+
+  color: black;
+
+  border: none;
+  border-radius: 30px;
+
+  text-align: center;
+
+  margin-inline: auto;
+  height: 50px;
+  font-size: 2.4rem;
+}
+
+body {
+  font-size: 1.8rem;
+  color: white;
+  background-color: black;
+  background-image: url('img/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 80px;
+  width: 92%;
+
+  padding: 0 100px;
+}
+
+.logo {
+  margin-left: 10%;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.ico {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.ico img {
+  width: 50px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.login a {
+  color: white;
+  font-size: 2.4rem;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.entrar h1 {
+  font-size: 6rem;
+  margin-top: 20px;
+}
+
+.entrar p {
+  font-size: 3.4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: s;
+  gap: 20px;
+
+  text-align: left;
+
+  margin-top: 100px;
+}
+
+form label {
+  margin-left: 10px;
+  font-size: 2.8rem;
+}
+
+input {
+  width: 600px;
+  height: 50px;
+
+  border-radius: 30px;
+  border: none;
+  background-color: hsla(0, 0%, 58%, 0.716);
+
+  outline: 0;
+
+  color: white;
+  font-size: 2.8rem;
+  line-height: 50px;
+
+  padding-left: 40px;
+}
+
+input::placeholder {
+  font-size: 2.8rem;
+
+  color: white;
+}
+
+form button {
+  width: 200px;
+}
+
+section {
+  margin-top: 50px;
+  width: 50%;
+  font-size: 2.4rem;
+}
+
+section button {
+  margin-top: 20px;
+  width: 350px;
+}
